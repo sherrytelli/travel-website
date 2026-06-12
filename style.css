@@ -394,8 +394,9 @@ body.dark .dark-toggle__icon--sun {
 
 .scroll-indicator__pill::after {
   content: '';
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
+  margin-top: -10px;
   border-right: 2px solid var(--white);
   border-bottom: 2px solid var(--white);
   transform: rotate(45deg);
