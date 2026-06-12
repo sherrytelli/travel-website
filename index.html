@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the Beauty of Pakistan — From majestic mountains to vibrant cities and rich culture.">
+  <title>Pakistan Travel — Discover the Beauty of Pakistan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 1. Sticky Navigation Bar ===== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+      <a href="#home" class="navbar__logo">Pakistan Travel</a>
+      <nav class="navbar__nav" id="nav-menu">
+        <a href="#home" class="navbar__link navbar__link--active">Home</a>
+        <a href="#destinations" class="navbar__link">Destinations</a>
+        <a href="#experiences" class="navbar__link">Experiences</a>
+        <a href="#gallery" class="navbar__link">Gallery</a>
+        <a href="#contact" class="navbar__link">Contact</a>
+      </nav>
+      <button class="navbar__toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <button class="navbar__dark" id="dark-toggle" aria-label="Toggle dark mode">
+        <svg class="dark-toggle__icon dark-toggle__icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="dark-toggle__icon dark-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== 2. Hero Section ===== -->
+    <section class="hero" id="home">
+      <div class="hero__bg"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1 class="hero__title">Discover the Beauty of Pakistan</h1>
+        <p class="hero__subtitle">From majestic mountains to vibrant cities and rich culture.</p>
+        <div class="hero__actions">
+          <a href="#destinations" class="btn btn--primary">Explore Destinations</a>
+          <a href="#contact" class="btn btn--outline">Watch Video</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-indicator__pill">
+          <span>Scroll Down</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3. Why Visit Pakistan ===== -->
+    <section class="section section--dark" id="why-visit">
+      <div class="container">
+        <h2 class="section__title">Why Visit Pakistan</h2>
+        <p class="section__subtitle">A land of unmatched natural beauty and warm hospitality</p>
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-card__icon"> mountains </div>
+            <h3 class="feature-card__title">Mountains</h3>
+            <p class="feature-card__desc">Home to breathtaking peaks and valleys, from K2 to Nanga Parbat.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__icon">&#127780;</div>
+            <h3 class="feature-card__title">Culture</h3>
+            <p class="feature-card__desc">Rich traditions, vibrant festivals, and legendary hospitality.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__icon">&#127859;</div>
+            <h3 class="feature-card__title">Food</h3>
+            <p class="feature-card__desc">Unique and flavorful regional cuisine from every corner of the country.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__icon">&#9962;</div>
+            <h3 class="feature-card__title">Adventure</h3>
+            <p class="feature-card__desc">Trekking, camping, and exploration in the world's most dramatic landscapes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 4. Featured Destinations ===== -->
+    <section class="section" id="destinations">
+      <div class="container">
+        <h2 class="section__title">Featured Destinations</h2>
+        <p class="section__subtitle">Explore Pakistan's most iconic places</p>
+        <div class="destinations-grid">
+          <article class="dest-card">
+            <div class="dest-card__img">
+              <img src="https://images.unsplash.com/photo-1594305178909-038934e79eb0?w=600&h=400&fit=crop" alt="Hunza Valley with mountains and apricot trees" loading="lazy">
+            </div>
+            <div class="dest-card__body">
+              <h3 class="dest-card__name">Hunza Valley</h3>
+              <p class="dest-card__desc">A paradise nestled among towering peaks, known for its stunning views and warm people.</p>
+              <a href="#contact" class="btn btn--sm btn--primary">Learn More</a>
+            </div>
+          </article>
+          <article class="dest-card">
+            <div class="dest-card__img">
+              <img src="https://images.unsplash.com/photo-1615551323354-846c8523a43f?w=600&h=400&fit=crop" alt="Skardu valley surrounded by mountains" loading="lazy">
+            </div>
+            <div class="dest-card__body">
+              <h3 class="dest-card__name">Skardu</h3>
+              <p class="dest-card__desc">Gateway to K2, famous for its crystal-clear lakes and dramatic desert landscapes.</p>
+              <a href="#contact" class="btn btn--sm btn--primary">Learn More</a>
+            </div>
+          </article>
+          <article class="dest-card">
+            <div class="dest-card__img">
+              <img src="https://images.unsplash.com/photo-1582974559898-2b99e5c5b8a6?w=600&h=400&fit=crop" alt="Fairy Meadows with Nanga Parbat view" loading="lazy">
+            </div>
+            <div class="dest-card__body">
+              <h3 class="dest-card__name">Fairy Meadows</h3>
+              <p class="dest-card__desc">A lush green plateau offering breathtaking views of Nanga Parbat, the ninth highest peak.</p>
+              <a href="#contact" class="btn btn--sm btn--primary">Learn More</a>
+            </div>
+          </article>
+          <article class="dest-card">
+            <div class="dest-card__img">
+              <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop" alt="Attabad Lake with turquoise water" loading="lazy">
+            </div>
+            <div class="dest-card__body">
+              <h3 class="dest-card__name">Attabad Lake</h3>
+              <p class="dest-card__desc">A stunning turquoise lake formed after a landslide, perfect for boating and photography.</p>
+              <a href="#contact" class="btn btn--sm btn--primary">Learn More</a>
+            </div>
+          </article>
+          <article class="dest-card">
+            <div class="dest-card__img">
+              <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=600&h=400&fit=crop" alt="Lahore Fort historic architecture" loading="lazy">
+            </div>
+            <div class="dest-card__body">
+              <h3 class="dest-card__name">Lahore</h3>
+              <p class="dest-card__desc">The cultural heart of Pakistan, rich in Mughal history, food, and art.</p>
+              <a href="#contact" class="btn btn--sm btn--primary">Learn More</a>
+            </div>
+          </article>
+          <article class="dest-card">
+            <div class="dest-card__img">
+              <img src="https://images.unsplash.com/photo-1597942609414-7bf98b3b4d68?w=600&h=400&fit=crop" alt="Mohenjo-Daro ancient ruins" loading="lazy">
+            </div>
+            <div class="dest-card__body">
+              <h3 class="dest-card__name">Mohenjo-Daro</h3>
+              <p class="dest-card__desc">One of the world's earliest major cities, a UNESCO World Heritage Site.</p>
+              <a href="#contact" class="btn btn--sm btn--primary">Learn More</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 5. Explore Pakistan by Region ===== -->
+    <section class="section section--dark" id="regions">
+      <div class="container">
+        <h2 class="section__title">Explore Pakistan by Region</h2>
+        <p class="section__subtitle">Click a region to discover more</p>
+        <div class="regions-grid" id="regions-grid">
+          <div class="region-card" data-region="gilgit">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Gilgit Baltistan mountains" loading="lazy">
+            <div class="region-card__overlay">
+              <h3 class="region-card__name">Gilgit Baltistan</h3>
+            </div>
+          </div>
+          <div class="region-card" data-region="punjab">
+            <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=400&h=300&fit=crop" alt="Punjab plains" loading="lazy">
+            <div class="region-card__overlay">
+              <h3 class="region-card__name">Punjab</h3>
+            </div>
+          </div>
+          <div class="region-card" data-region="sindh">
+            <img src="https://images.unsplash.com/photo-1597942609414-7bf98b3b4d68?w=400&h=300&fit=crop" alt="Sindh landscape" loading="lazy">
+            <div class="region-card__overlay">
+              <h3 class="region-card__name">Sindh</h3>
+            </div>
+          </div>
+          <div class="region-card" data-region="kpk">
+            <img src="https://images.unsplash.com/photo-1582974559898-2b99e5c5b8a6?w=400&h=300&fit=crop" alt="KPK mountains" loading="lazy">
+            <div class="region-card__overlay">
+              <h3 class="region-card__name">KPK</h3>
+            </div>
+          </div>
+          <div class="region-card" data-region="balochistan">
+            <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=400&h=300&fit=crop" alt="Balochistan terrain" loading="lazy">
+            <div class="region-card__overlay">
+              <h3 class="region-card__name">Balochistan</h3>
+            </div>
+          </div>
+          <div class="region-card" data-region="kashmir">
+            <img src="https://images.unsplash.com/photo-1594305178909-038934e79eb0?w=400&h=300&fit=crop" alt="Azad Kashmir valley" loading="lazy">
+            <div class="region-card__overlay">
+              <h3 class="region-card__name">Azad Kashmir</h3>
+            </div>
+          </div>
+        </div>
+        <div class="region-detail" id="region-detail">
+          <p class="region-detail__placeholder">Click any region above to view details</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 6. Top Experiences ===== -->
+    <section class="section" id="experiences">
+      <div class="container">
+        <h2 class="section__title">Top Experiences</h2>
+        <p class="section__subtitle">Adventures that await you</p>
+        <div class="experiences-grid">
+          <article class="exp-card">
+            <div class="exp-card__icon">&#9737;</div>
+            <h3 class="exp-card__title">Trekking</h3>
+            <p class="exp-card__desc">Trail-blazing through some of the world's most dramatic mountain passes.</p>
+          </article>
+          <article class="exp-card">
+            <div class="exp-card__icon">&#127951;</div>
+            <h3 class="exp-card__title">Camping</h3>
+            <p class="exp-card__desc">Sleep under the stars in the most pristine natural settings.</p>
+          </article>
+          <article class="exp-card">
+            <div class="exp-card__icon">&#9997;</div>
+            <h3 class="exp-card__title">Boating</h3>
+            <p class="exp-card__desc">Glide across crystal-clear alpine lakes and serene rivers.</p>
+          </article>
+          <article class="exp-card">
+            <div class="exp-card__icon">&#128663;</div>
+            <h3 class="exp-card__title">Jeep Safari</h3>
+            <p class="exp-card__desc">Thrilling rides on the world's highest paved roads.</p>
+          </article>
+          <article class="exp-card">
+            <div class="exp-card__icon">&#127759;</div>
+            <h3 class="exp-card__title">Desert Adventure</h3>
+            <p class="exp-card__desc">Explore vast deserts and ancient sandstone formations.</p>
+          </article>
+          <article class="exp-card">
+            <div class="exp-card__icon">&#127971;</div>
+            <h3 class="exp-card__title">Cultural Tours</h3>
+            <p class="exp-card__desc">Immerse yourself in centuries-old traditions and heritage.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 7. Seasonal Travel Guide ===== -->
+    <section class="section section--dark" id="seasons">
+      <div class="container">
+        <h2 class="section__title">Seasonal Travel Guide</h2>
+        <p class="section__subtitle">Best time to visit Pakistan</p>
+        <div class="seasons-grid">
+          <article class="season-card season-card--spring">
+            <div class="season-card__header">
+              <span class="season-card__icon">&#127807;</span>
+              <h3 class="season-card__name">Spring</h3>
+            </div>
+            <p class="season-card__months">March - May</p>
+            <ul class="season-card__list">
+              <li>Hunza Valley</li>
+              <li>Naran Kaghan</li>
+              <li>Swat Valley</li>
+            </ul>
+          </article>
+          <article class="season-card season-card--summer">
+            <div class="season-card__header">
+              <span class="season-card__icon">&#9728;</span>
+              <h3 class="season-card__name">Summer</h3>
+            </div>
+            <p class="season-card__months">June - August</p>
+            <ul class="season-card__list">
+              <li>Skardu</li>
+              <li>Gilgit</li>
+              <li>Chitral</li>
+            </ul>
+          </article>
+          <article class="season-card season-card--autumn">
+            <div class="season-card__header">
+              <span class="season-card__icon">&#127777;</span>
+              <h3 class="season-card__name">Autumn</h3>
+            </div>
+            <p class="season-card__months">September - November</p>
+            <ul class="season-card__list">
+              <li>Fortran Valley</li>
+              <li>Deosai Plains</li>
+              <li>Hunza</li>
+            </ul>
+          </article>
+          <article class="season-card season-card--winter">
+            <div class="season-card__header">
+              <span class="season-card__icon">&#10052;</span>
+              <h3 class="season-card__name">Winter</h3>
+            </div>
+            <p class="season-card__months">December - February</p>
+            <ul class="season-card__list">
+              <li>Absar Valley</li>
+              <li>Shogran</li>
+              <li>Ladha Valley</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 8. Travel Packages ===== -->
+    <section class="section" id="packages">
+      <div class="container">
+        <h2 class="section__title">Travel Packages</h2>
+        <p class="section__subtitle">Curated itineraries for every traveler</p>
+        <div class="packages-grid">
+          <article class="package-card">
+            <div class="package-card__header">
+              <h3 class="package-card__name">Northern Explorer</h3>
+              <span class="package-card__duration">7 Days</span>
+            </div>
+            <ul class="package-card__features">
+              <li>Hunza Valley tour</li>
+              <li>Attabad Lake boating</li>
+              <li>Fairy Meadows trek</li>
+              <li>3-night hotel stay</li>
+              <li>Airport transfers</li>
+            </ul>
+            <div class="package-card__footer">
+              <span class="package-card__price">$1,200</span>
+              <a href="#contact" class="btn btn--sm btn--primary">Book Now</a>
+            </div>
+          </article>
+          <article class="package-card package-card--featured">
+            <span class="package-card__badge">Featured</span>
+            <div class="package-card__header">
+              <h3 class="package-card__name">Hunza Escape</h3>
+              <span class="package-card__duration">5 Days</span>
+            </div>
+            <ul class="package-card__features">
+              <li>Baltit Fort visit</li>
+              <li>Eagle's Point sunrise</li>
+              <li>Local food tasting</li>
+              <li>2-night boutique hotel</li>
+              <li>Guided walking tour</li>
+            </ul>
+            <div class="package-card__footer">
+              <span class="package-card__price">$850</span>
+              <a href="#contact" class="btn btn--sm btn--primary">Book Now</a>
+            </div>
+          </article>
+          <article class="package-card">
+            <div class="package-card__header">
+              <h3 class="package-card__name">Pakistan Grand Tour</h3>
+              <span class="package-card__duration">10 Days</span>
+            </div>
+            <ul class="package-card__features">
+              <li>All Northern Areas highlights</li>
+              <li>Lahore cultural tour</li>
+              <li>Mohenjo-Daro UNESCO site</li>
+              <li>4-night hotel stays</li>
+              <li>Domestic flights included</li>
+              <li>24/7 support</li>
+            </ul>
+            <div class="package-card__footer">
+              <span class="package-card__price">$2,500</span>
+              <a href="#contact" class="btn btn--sm btn--primary">Book Now</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 9. Photo Gallery ===== -->
+    <section class="section section--dark" id="gallery">
+      <div class="container">
+        <h2 class="section__title">Photo Gallery</h2>
+        <p class="section__subtitle">Glimpses of Pakistan's beauty</p>
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop" alt="Mountain landscape in Pakistan" loading="lazy">
+            <figcaption class="gallery-item__caption">Mountain Peaks</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1594305178909-038934e79eb0?w=600&h=400&fit=crop" alt="Valley with green fields" loading="lazy">
+            <figcaption class="gallery-item__caption">Lush Valleys</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1582974559898-2b99e5c5b8a6?w=600&h=400&fit=crop" alt="Meadow with mountains" loading="lazy">
+            <figcaption class="gallery-item__caption">Green Meadows</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&h=400&fit=crop" alt="Desert landscape" loading="lazy">
+            <figcaption class="gallery-item__caption">Desert Dunes</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=600&h=400&fit=crop" alt="Historic architecture" loading="lazy">
+            <figcaption class="gallery-item__caption">Heritage Sites</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1597942609414-7bf98b3b4d68?w=600&h=400&fit=crop" alt="Ancient ruins" loading="lazy">
+            <figcaption class="gallery-item__caption">Ancient Ruins</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&h=400&fit=crop" alt="Snowy mountain range" loading="lazy">
+            <figcaption class="gallery-item__caption">Snowy Ranges</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600&h=400&fit=crop" alt="Green countryside" loading="lazy">
+            <figcaption class="gallery-item__caption">Countryside</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 10. Testimonials ===== -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <h2 class="section__title">What Travelers Say</h2>
+        <p class="section__subtitle">Real stories from real explorers</p>
+        <div class="testimonial-slider" id="testimonial-slider">
+          <div class="testimonial-track" id="testimonial-track">
+            <div class="testimonial-item">
+              <div class="testimonial-item__avatar">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="James Wilson" loading="lazy">
+              </div>
+              <div class="testimonial-item__content">
+                <div class="testimonial-item__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testimonial-item__text">"Pakistan exceeded all my expectations. The northern areas are absolutely breathtaking — every turn revealed a new postcard-worthy view."</p>
+                <h4 class="testimonial-item__name">James Wilson</h4>
+                <span class="testimonial-item__role">Travel Blogger, UK</span>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <div class="testimonial-item__avatar">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face" alt="Sarah Chen" loading="lazy">
+              </div>
+              <div class="testimonial-item__content">
+                <div class="testimonial-item__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testimonial-item__text">"The kindness of the people in Hunza stayed with me long after I left. I've already booked my return trip!"</p>
+                <h4 class="testimonial-item__name">Sarah Chen</h4>
+                <span class="testimonial-item__role">Photographer, Canada</span>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <div class="testimonial-item__avatar">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="Marco Rossi" loading="lazy">
+              </div>
+              <div class="testimonial-item__content">
+                <div class="testimonial-item__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                <p class="testimonial-item__text">"Skardu and Attabad Lake were the highlights of my year. Pakistan is a hidden gem for adventure travelers."</p>
+                <h4 class="testimonial-item__name">Marco Rossi</h4>
+                <span class="testimonial-item__role">Adventure Guide, Italy</span>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <div class="testimonial-item__avatar">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Aisha Khan" loading="lazy">
+              </div>
+              <div class="testimonial-item__content">
+                <div class="testimonial-item__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testimonial-item__text">"As a Pakistani abroad, visiting Mohenjo-Daro and Lahore brought me so much pride. The history here is incredible."</p>
+                <h4 class="testimonial-item__name">Aisha Khan</h4>
+                <span class="testimonial-item__role">Archaeologist, USA</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-dots" id="testimonial-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 11. Statistics Section ===== -->
+    <section class="section section--dark stats-section" id="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-item__number" data-target="50">0</span>
+            <span class="stat-item__suffix">+</span>
+            <span class="stat-item__label">Destinations</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-item__number" data-target="10000">0</span>
+            <span class="stat-item__suffix">+</span>
+            <span class="stat-item__label">Travelers</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-item__number" data-target="500">0</span>
+            <span class="stat-item__suffix">+</span>
+            <span class="stat-item__label">Tours</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-item__number" data-target="100">0</span>
+            <span class="stat-item__suffix">+</span>
+            <span class="stat-item__label">Guides</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 12. Contact Section ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section__title">Get in Touch</h2>
+        <p class="section__subtitle">Plan your dream trip with us</p>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label class="form-group__label" for="contact-name">Name</label>
+            <input class="form-group__input" type="text" id="contact-name" name="name" placeholder="Your full name" required>
+            <span class="form-group__error" id="name-error"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-group__label" for="contact-email">Email</label>
+            <input class="form-group__input" type="email" id="contact-email" name="email" placeholder="your@email.com" required>
+            <span class="form-group__error" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-group__label" for="contact-phone">Phone</label>
+            <input class="form-group__input" type="tel" id="contact-phone" name="phone" placeholder="+92 300 1234567" required>
+            <span class="form-group__error" id="phone-error"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-group__label" for="contact-message">Message</label>
+            <textarea class="form-group__input form-group__input--textarea" id="contact-message" name="message" placeholder="Tell us about your dream trip..." rows="5" required></textarea>
+            <span class="form-group__error" id="message-error"></span>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== 13. Call To Action ===== -->
+    <section class="cta-section" id="cta">
+      <div class="cta-section__bg"></div>
+      <div class="cta-section__overlay"></div>
+      <div class="cta-section__content">
+        <h2 class="cta-section__title">Ready for Your Next Adventure?</h2>
+        <a href="#contact" class="btn btn--primary btn--lg">Start Your Journey</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== 14. Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <h3 class="footer__heading">Pakistan Travel</h3>
+          <p class="footer__text">Your gateway to discovering the incredible beauty, culture, and adventure that Pakistan has to offer. Let us guide you through an unforgettable journey.</p>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__heading">Quick Links</h3>
+          <ul class="footer__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__heading">Destinations</h3>
+          <ul class="footer__links">
+            <li><a href="#destinations">Hunza Valley</a></li>
+            <li><a href="#destinations">Skardu</a></li>
+            <li><a href="#destinations">Fairy Meadows</a></li>
+            <li><a href="#destinations">Lahore</a></li>
+            <li><a href="#destinations">Mohenjo-Daro</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__heading">Contact Us</h3>
+          <ul class="footer__contact">
+            <li>&#128205; Islamabad, Pakistan</li>
+            <li>&#128222; +92 51 1234567</li>
+            <li>&#9993; info@pakistantravel.com</li>
+          </ul>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Facebook">f</a>
+            <a href="#" class="footer__social-link" aria-label="Twitter">t</a>
+            <a href="#" class="footer__social-link" aria-label="Instagram">i</a>
+            <a href="#" class="footer__social-link" aria-label="YouTube">y</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Pakistan Travel. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="alert" aria-live="polite">
+    <span class="toast__icon">&#10003;</span>
+    <span class="toast__message">Message sent successfully!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
